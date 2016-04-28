@@ -1,0 +1,28 @@
+.btn-medium {
+	border: 1px solid #666666;
+	border-radius: 50px;
+	font-weight:lighter;
+	color: #666666;
+	opacity: 0.6;
+	padding: 10px 20px;
+	transition: opacity 0.3s ease;
+}
+
+.btn-medium:hover {
+	opacity: 1;
+}
+
+.btn-wagon {
+	background-color: #D23333;
+	border-radius: 3px;
+	padding: 25px 35px;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	transition: background-color 0.3s ease;
+
+}
+
+.btn-wagon:hover {
+	background-color:#800000; 
+}

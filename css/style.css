@@ -1,0 +1,51 @@
+/* style.css */
+/* --- Import Google Fonts stylesheets --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Import Components stylesheets --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/tabs.css");
+@import url("components/product.css");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+#components h2 {
+	margin-bottom: 30px;
+}
